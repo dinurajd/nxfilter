@@ -1,0 +1,8 @@
+[Unit]
+After=multi-user.target
+
+[Service]
+ExecStart=/nxfilter/bin/startup.sh
+
+[Install]
+WantedBy=default.target
