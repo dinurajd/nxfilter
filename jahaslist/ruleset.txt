@@ -1,0 +1,371 @@
+T,\b(online|digital|internet|affiliate|network|social|mobile|media).*(marketing|promotion)|\bad.*server|\be\-?mail.*marketing,1000,1
+T,\bseo\b.*(service|tool)|\btraffic.*exchange|\bsearch.*optimization|\bhelp.*build.*brand|\btele(marketing|sales),1000,1
+D,\b(online|digital|internet|affiliate).*\bmarketing,200,1
+T,site.*promotion|\b(web|search|url).*\bsubmission,200,1
+T,\b(buy|drive|increase).*\b(traffic|visit|hits|views|likes|follower),200,1
+A,^ads?\.|^ad[0-9]\.|adsense,101,1
+T,\bmarketing|\badvertising|\bbacklink|\bmedia.*sales|\bcpa.*optimi|\bcold\s?call,101,1
+T,\bseo\b|\bads\b|\bppv\b|\bpay.*view|\badvert|\bppc\b,101,1
+T,\bpress.*release|\breputation*management|\bpromotion.*service|\bpaid.*click|\bcopywrit,101,1
+T,\b(vintage.*wine|wine.*spirit|spirit.*wine|wine.*gift|electronic cigarett|cheap alcohol|beer.*\bwine|\bwine.*beer)|\be\-cigarett,1000,2
+T,\b(smok|cigar|tobacco|liquid|liquor).*\b(shop|store)|\bwine\b.*(guide|review)|(buy|discount).*\b(beer|wine)|home\s?brew,1000,2
+T,\bwiner(y|ies)|\bbrewer|distiller|\bliquor\b,101,2
+T,\b(astrolog|numerolog|horoscope|fortune\s?tell|tarot\s?card|astroloji),200,3
+T,\bblogs?\b|blogging|blogger,101,4
+T,\bpost.*(office|mail|\bship),1000,5
+T,\b(free|cheap).*international.*(call|phone)|\blogo.*design|\b(custom|design).*\blogo,200,5
+T,\b(mobile|internet|broadband).*\bservice|phone.*\bservice|\bexhibition center|\btrade show,120,5
+T,\bshipping|logistics|\bcourier|\bmoving.*compan|\b(home|house).*(moving|mover|removal)|\brelocation,120,5
+T,\bb2b\b|consulting|telecom|\bcustoms (broker|clearance)|\bfreight forwarding,110,5
+T,\b(equipment|supplies|services|online.*service|fax.*service),105,5
+T,\b(royalty free|pay as you go),101,5
+T,\b(communications|publish|manufactur|supplier|business|wholesale|affiliate|distributor|reseller|dealer),101,5
+T,\b(home|kitchen|laundry).*appliance|appliance.*(home|kitchen|laundry),101,5
+T,\bcompan.*in the.*world|\bbest compan|\bpremier compan|\bmotorola|\b(package|parcel) track|\b(ups|dhl|fedex)\b,101,5
+T,\btrade.*show|\bexpo\b|\bindustrial|\bindustries|\brisk.*(assessment|analysis),101,5
+T,\b(wireless|wi\-*fi).*service|\bfree.*\b(wireless|internet|4g|wi\-*fi)|\b(ink|toner).*\bcartridg,101,5
+T,\bsolar.*(system|power|panel|energy),101,5
+T,\bonline.*photo|\bphoto.*online|\bwedding.*photo|\bstock.*\b(photo|image)|\btranslat(e|or|ion)\b|\bcall center,101,5
+T,(\blcd|\bled|\bplasma|\b3d\b).*(tv\b|\bproject)|\bcamera|\bproduct|\b(wood|metal)working|\bmachine|\bstoves?\b,101,5
+T,\b(washing machine|air conditioner|refrigerator|vacuum cleaner|fabrics|exhibition|prepaid|postpaid)|\b(adsl|gps|smartphone|3g|4g)\b,100,5
+T,\b(3d print|marketplace|official.*site|scanner|welding|laser|label.*\bprint|plumbing|heating|heater|digital|broadband|cell.*phone),100,5
+T,\b(corporation|company|global|international|limited|innovations?)\b$|\b(technologies|holdings|partnership|unincoporated),100,5
+T,\belectric|\belectronic|\b(samsung|epson|sms|gmbh|systems|solutions)\b,100,5
+T,\bco\b.*\bltd\b|\b(llc|ltd)\b|\b(inc|corp)\.?$,100,5
+T,\bcdn\b|\bmaxcdn|\bcontent delivery network,101,6
+A,^cdn\.|\.cdn\.,101,6
+T,\b(new|used|vintage|classic|old|sell|buy|luxury|muscle|hot\s?rod|best|exotic|electric|trading|hybrid).*cars?\b|\btwo wheeler,1000,7
+T,\b(cars?\b|bike|boat|motorcycle).*\b(magazine|review|news)|\bmotorsport|\bharley\s?davidson|\bdiscount car|\bcars for sale,1000,7
+T,\b(nissan|honda|hyundai|ford|benz|renault|suzuki|toyota|gm|volvo|\bchevy).*(car|motor|truck|parts|deal|accesso|offer|owner),1000,7
+T,\b(citroen|cadilac|vauxhall|kia|daewoo|skoda|porsche|volkswagen|vw).*(car|motor|truck|parts|deal|accesso|offer|owner),1000,7
+T,\b(mazda|land.*rover|maserati|opel|tata|jeep|ssangyong|lotus|tesla|lamborghini|bentley).*(car|motor|truck|parts|deal|accesso|offer|owner),1000,7
+T,\b(chevrolet|peugeot|subaru|dodge|bmw|aston\s?martin|alfa\s?romeo|jaguar).*\b(car|motor|truck|parts|deal|accesso|offer|owner),1000,7
+T,\b(auto|car\b).*\b(part|accessor|repair|service|care|sharing)|automobile|\bgolf.*gti\b,200,7
+T,\btire.*wheel|\bcar.*\b(tire|wheel)|\bmotor(cycle|bike).*\b(helmets|clothing|boots|accesso),200,7
+T,\b(driving|gps).*(direction|map|navi)|\b(auto|car|vehicle).*\b(deal|leas)|\brv dealer,200,7
+T,\bbikes?\b|motor(cycle|bike)|motocykle|riding.*mower|\bgo\s?[ck]art|\bscooter,101,7
+T,\b(aftermarket|tuning|performance.*parts|roadster|motorhome)|\b4x4\b,101,7
+T,\bsuvs?\b|\blincoln.*motor|\b(car|motor) club|\bmotor\s?boat|\bmotorboote|\byachts,101,7
+T,\b(volkswagen|porsche|vw\b|peugeot$|chrysler|daihatsu|rolls.*royce|kawasaki|vespa|carros|alfa\s?romeo),101,7
+T,\bmotors\b,50,7
+T,\bvehicle,50,7
+D,\bmotors\b,50,7
+D,\bvehicle,50,7
+D,\bbikes?\b,50,7
+T,\baudi\b,50,7
+T,\bbenz\b,50,7
+T,\bbmw\b,50,7
+T,\b(free|online).*\bchat.*|.*\bchat\s?room.*,1000,8
+T,\bchat\b|\bchatting\b,101,8
+T,\badult,-900,8
+T,\bwordpress.*(theme|plugin)|\bdynamic dns|\bvideo.*\bconferenc|\bmp.*\bconvert|\bcomputer.*program|\bsoftware.*development,1000,9
+T,\b(web|homep).*(develop|design)|\bopen.*source.*(solution|software|application)|\bweb agency|\bcloud (based|computing),1000,9
+T,(computer|tech).*(review|news)|\bscience.*\btech|\bmanagement.*\b(software|solution|system|program|app)|\bembedded linux,1000,9
+T,(smartphone|tablet|wearable|gadget|iphone|\bios\b|\bipads?\b).*(review|news),1000,9
+T,\b(c\+\+|cplusplus|c#|csharp|\berlang|asp\.net|visual basic)|\bobjective c\b|\b(squid|http|socks).*proxy|\bproxy.*squid,1000,9
+T,\b(network|system|server|website).*monitoring|\bregex\b,1000,9
+T,\bshopping cart|\bcommerce.*\b(software|solution)|\bhr\b.*software|\bopencart|\b(software|security) solution,1000,9
+T,\b(enterprise|information|web|email|data|endpoint|network|system|server|it\b|internet|mobile) security,1000,9
+T,\bmultimedia.*solution|web conferenc|\bwebinar|\b(booking|reservation).*(system|software|engine)|\bfree.*software,200,9
+T,\bandroid.*(app|news|review|forum|\bios\b)|phone.*(news|review),200,9
+T,\b(network.*tool|online.*ping|traceroute|nslookup)|\bembedded.*(linux|system|development),200,9
+D,\b(iphone|ios\b|ipads?\b).*\b(news|review)|\b(create|build|make).*\bapp,150,9
+T,\b(create|convert).*pdf|\bvideo.*convert,150,9
+T,(broadband|internet).*speed|anti\s?(malware|spyware)|\bdevelopment tool,110,9
+T,\b(clean|boost|optimize|secure).*\b(pc\b|computer|windows|mac|android|ios),110,9
+T,\bcreate.*website|\bresponsive.*(theme|template)|(web|html|css).*template|free.*(psd|template|icon)|\bmagento\b|webmaster,110,9
+T,\b(data|log|information).*management|\bopen.*source|\bcss\b|bootstrap|\bprotect.*data,101,9
+T,\b(ubuntu|linux|debian|gentoo|freebsd|computing|java\b|perl|cgi\b|php|javascript|python|openbsd|ip.*address|joomla),101,9
+T,\bweb.*app|\bjquery|\bdns\b|\b(free.*font|photo.*edit|wordpress|video.*player|password.*manage|drupal|browser),101,9
+T,\bfor.*\b(windows|mac|ios|android)|\bwindows.*mac|\barchiver|\bruby.*rail|\btext.*editor|\bwindows.*driver|\bapp for|\bregex\b,101,9
+T,\bdata.*\b(storage|protection)|\bweb.*build|\bbuild.*web|\boverclock|\binfo.*tech|\bdriver.*update|\bcomputer|\b(pc|windows).*driver,101,9
+T,(wireless|mobile).*tech|(science|tech|engineer).*fair|e\-commerce,101,9
+T,(android|\bios\b|phone).*(rooting|unlock|jailbreak)|(rooting|unlock|jailbreak).*(phone|android)|blackberry|\badobe\b,101,9
+T,\b(microsoft \.net|hackintosh|mobile.*app|institute.*tech|programming.*code)|\bwindows.*(install|repair|phone),101,9
+T,\bsoftware.*test|\bvirtualization|\bit\b.*solution|\b(plugins|subversion|video.*confrence|photoshop|antivirus)|\bvoip\b,101,9
+T,\bcodecs\b|windows.*\bcodec|\bcodec.*\bpack|\bit\b.*\b(support|consultancy),101,9
+T,\bdata.*recov|\bxml\b|\bsql\b|programming|\b(crm|cms|erp)\b|\bbig\s?data|microsoft.*(office|project),101,9
+T,\bconverter|\bdebugger,100,9
+T,\bsoftware\b,100,9
+T,\bjava.*coffee|\bcoffee.*(java|tea)|\bsteak.*house|\borganic.*(food|meal)|\bfood.*organic|\btakeaway.*food|\bfood.*delivery,1000,10
+T,\b(recipe|menu).*(dinner|lunch|breakfast|vegan|cook)|\b(dinner|lunch|breakfast|vegan|cook).*(recipe|menu),1000,10
+T,\bfamily.*(meal|food|cook|recipe),1000,10
+T,\b(dinner|food|asian|thai|chinese|japan|mexic|filipino|pinoy|italia|korea|french).*(recipe|menu|food|cuisine)|\b(slow|fast).*food,1000,10
+T,\brestaurant|\bbakery|\bbaking|\bhome.*(cook|chef)|\bpizza\b|\bcuisine|\brotisserie|\bcatering|\bfood.*service|\bsmoothie|\bice cream,101,10
+T,\b(kitchenware|cookware|cooking|meal.*plan|superfood)|\bvegan|\bgmo\b|\bkfc\b|\bburger\b|\bchicken wing|\bfried chicken|\bbbq\b,101,10
+D,\brestaurant|\bbakery|\bbaking|\bcook.*recipe|\brecipe.*cook|\bhome.*(cook|chef)|\bpizza\b|\bmcdonald|\btgi friday|\bfrozen (meal|food)|\byogurt,100,10
+T,\b(sushi|kimchi)\b,100,10
+T,food,50,10
+T,\b(online|speed) dating,1000,11
+T,\b(meet|find).*\b(girl|love|affair),1000,11
+T,\bdating|\bmatch.*(making|maker)|\bhook.*up,200,11
+T,\b(freeware|software).*download,1000,12
+T,\bdownload.*(software|freeware),1000,12
+T,\bdownload.*\bapp,210,12
+T,\b(desktop|mac|ios|windows|iphone|android|smartphone).*\b(wallpaper|theme)|download.*wallpaper|wallpaper.*download,101,12
+T,\bdownloader|\b(stock|free|download).*\b(photo|image|vector)|download.*manager|\bclip\s?art\b,101,12
+T,\bkeylogger,-1000,12
+T,\bdrug.*(rehab|treatment|addiction),1000,13
+A,cannabis|marijuana,1000,13
+T,\b(cannabis|marijuana|weed.*seed|grow.*weed),300,13
+T,\bfaculty of |\b(public|county) library|\bmedical college,1000,14
+T,\b(higher|primary|secondary) education,1000,14
+T,\b(student|education).*fair|\bhome\s?school|\bk\-12\b|(study|studies|education) (abroad|overseas)|\bcounty.*school|\b(school|library).*district,200,14
+T,\bmathematics education|\bsats?\b|\bprivate tuition,200,14
+T,\buniversit|college|scholarship|universidad|private.*school|\bpreschool|kindergarten|\b(high|middle|public|international|county|boarding)\s?school,101,14
+T,\btesl\b|\besl.*teacher|\befl.*teacher|\btesol\b|\beducate.*child|\b(postgraduate|undergraduate|doctor|master|bachelor).*degree,101,14
+T,law school|schoo of law,101,14
+T,\bonline.*movie|\bmovie.*online|\bfan fiction|\b(movie|entertainment).*news|\bwatch.*\b(movie|video|anime|serise|episode|tv),1000,15
+T,\bticket.*(concert|movie|\bart|theater)|\bcelebrity.*gossip,1000,15
+T,\bkorea.*drama|\bkpop|\bbox\s?office|\bsoap\s?opera,200,15
+T,entertainment|ollywood\b|\bshowbiz|\bsubtitle|\btv\b.*show|\btv\s?(week|guide),120,15
+T,\bfun.*\b(picture|photo|video|pics)|\bfiction\b|\byoutube.*video|\bvintage film|\bfilm festival,120,15
+T,\bmovies?\b|\btv\b|\bradio\b|\bcomic\b|\bcartoons?\b|\bmanga\b|\banime\b|cinema,101,15
+T,\bbroadcast.*\b(system|service|compan|corp)|\bbbc\b,101,15
+T,\bcelebrit|\bmuseum|\bjokes\b|\blaughter|\bfree comic|\bcomics\b,101,15
+T,\bebooks?|(audio|free).*book|comedy.*club|halloween costume,101,15
+T,\blive.*stream|\bhome theater|\bpodcast|\bconcert|\bliterature,101,15
+D,\bmovies?\b|\btv\b|\bradio\b|\bcomic\b|\bcartoons?\b|\bmanga\b|\banime\b|\bcinema|\bgossip,100,15
+A,\bgossip,100,15
+T,\blcd\b|\bled\b,-200,15
+T,\bp2p\b|torrent,-1000,15
+T,fashion.*(magazine|trend|news|designer|style|model),1000,16
+T,\b(beauty|nail|hair).*\b(shop|store|salon|supply|product),1000,16
+T,\b(m[ea]n|wom[ea]n|designer).*\b(fashion|handbag|cloth|watches|shoe),1000,16
+T,\bhair.*(cut|beauty|style|removal|piece|wig|extension|product|care|treatment|color|dye)|\b(grow|dye).*hair,200,16
+T,\bcosmetics?|\bfashion|\bdresses|\btuxedos|\bvintage.*\bcloth|\bskin.*\bcare\b|\beye\-?wear|\bsunglasses,110,16
+T,\b(pedicure|makeup|jewelr|jewellery|juwelier|sneakers?\b|wigs\b|shampoo|perfume|cologne|watches|lingerie|footwear|swimwear|swimsuits|clothing),110,16
+T,\b(shoes?|suits|jackets|bikinis|shirts|prada|armani|gucci|fendi|versace|hugo boss)\b,100,16
+T,shopping,-200,16
+T,\b(file|image).*\b(hosting|sharing)|\bshare.*\bfile,1000,17
+T,\b(cloud|online).*\b(storage|backup)|\bdropbox,200,17
+T,\bweb hosting,-1000,17
+T,\b(online|personal|internet) (banking|trading)|\bsmall cap stock|\bsavings.*(account|bank|plan)|\b(corporate|business) banking|\bmember owned bank,1000,18
+T,\bbank (of |ag\b)|\bhausbank.*ag\b|\bnational bank|\bbanco \b(de|do)|\bhome mortgage,1000,18
+T,\b(money management|credit card|bill.*pay)|\b(master|visa|credit|debit).*card|\bfinancial (service|advice|advisor|solution),1000,18
+T,\b(personal|car|\bauto\b).*financ|\b(futures|fx) trading|brokers|\bcommodity (futures|broker|trading)|\basset (trading|solution),1000,18
+T,\b(car|auto|house|health|life|travel|medical|business|home).*insurance|\b(stock|share|day|options) trading|\btrading platform,1000,18
+T,\bcompare.*insurance|\bcredit union|\brefinance|\b(asset|wealth|investment|financial).*management|\bbookkeeping|\btax (service|audit),1000,18
+T,\binvestment.*(account|network)|\bfutures trading|brokers|\bcommodity (futures|broker|trading)|\basset trading|\b(binary|index) options,1000,18
+T,\b(fha|consolidation|student|payday|installment|business) loans?,1000,18
+T,\bstock.*(market|exchange|trad|quote|invest|price|analy)|\bcommunity bank,200,18
+T,\bhsbc|standard.*chartered|online.*brokerage|\bdie bank\b|trading.*news|\bdebt (solution|management|settlement|consolidation),200,18
+T,\bgold.*(rate|price|market|invest|trad|cash|bar)|\b(cash|sell|buy).*(gold|silver),200,18
+T,pay(roll|check).*(calc|service)|\b(currency|cash).*converter,200,18
+T,\b(paygate|payment.*gate|paypal|online.*payment)|payment.*(system|service)|money.*transfer|secure.*pay|\be\-payment,120,18
+T,\b(insurance|mortgage|financ|forex\b|tax.*return|tax.*refund|investment|mutual.*fund)|\bbank(ing)? rate,101,18
+T,\b(oil\b|energy\b|petroleum).*price|\b(exchange rate|small caps|stocks|accounting|retirement.*plan|bankupt),101,18
+T,\bbitcoin|\blitecoin|cryptocurrency|\bmulti\-asset,101,18
+T,\b(debt|loans?)\b,100,18
+T,\b(image|vector|vetores|video|fotos|photo),-1000,18
+T,\balumni.*(association|university|college|school|online),1000,19
+T,\bbulletin.*board|\bonline.*forum,110,19
+T,\bforum[su]?$|\b(online|largest|best).*community|\bcommunit(y|ies)$|powered by discuz|society of|\b(society|club)$,101,19
+T,(online|internet|real).*(gambl|casino|poker)|sport.*toto|horse.*bet,1000,20
+T,(gambl|casio|poker).*online|\btexas hold,1000,20
+T,\blotto.*(result|online|ticket)|\blottery,200,20
+T,\blotto\b|\bblackjack|\bcasino\b|\bkasino\b,101,20
+A,^(lotto|poker|casino)|(lotto|poker|casino)\.,100,20
+T,\b(free|mobile|phone|computer|\bpc\b|console|video|board|abandon|\bdos\b|\bold\b).*\bgame,1000,21
+T,\bonline.*\b(games?|rpg|chess)|\bmmorpg|\bgame.*\b(hack|cheat|trainer|editor),1000,21
+T,\bgame.*(reviews?|news)|\b(starcraft|warcraft|minecraft|world of tanks)|\bfifa (online|ultimate),1000,21
+T,\bplaystation|\bps[34]\b|\bxbox|\bnintendo\b|gameplay,120,21
+T,\bgames?|\bgaming|\bchess,100,21
+A,game\.,100,21
+A,\.games?\.,100,21
+T,\b(educational|gossip|gambl),-1000,21
+T,city (council|hall)|tax collector,1000,22
+T,\bcounty of|\bcounty.*\b(council|office|official|web\s?site|auditor|treasurer|portal|home|district|department),101,22
+T,\blaw enforcement|\bpolice (department|service)|\w+ police$,101,22
+T,\b(news|magazin),100,22
+T,(security|web|computer|windows|mac).*(exploit|vulnerabilit)|exploit.*security,1000,23
+T,hacking.*security|security.*hacking|ethical.*hack(ing|er)|\bpen.*test|keylogger,1000,23
+T,hacking.*lab|cracking.*tutorial|\bxss\b,101,23
+T,(health|medical).*(magazine|news)|\bhome.*remed|\bfind.*\b(doctor|hospital)|health food|(health|vitamin).*supplements,1000,25
+T,\b(herbal|chinese|nature|natural|alternative).*medicine|\bdrug (info|side),1000,25
+T,laser eye|\b(eye|plastic|cosmetic|weight).*surgery|\bpain.*\b(relief|care|clinic)|\bhair.*transplant|\bbreast.*\b(cancer|implant|enhanc|grow),1000,25
+T,\bbuild.*(body|muscle)|\bbody.*build|\bgain.*weight|\b(elderly|home|senior) care\b,200,25
+T,\bhealth\s?care|\bmedicare,200,25
+T,\bfitness|\bnutrition|\bhealth|\bmedical|\bwellbeing|\bpregnancy|\barbotion|\bmale.*enhance|\b(\b6|\bsix) pack|\bworkout,102,25
+T,\bhospitals?\b|\bclinics?\b|\bsurge(ry|on)|\bdiabet(e|ic)|\boverweight|\bobesity|dandruff|\bcancer|diabetic,101,25
+T,\blose.*(weight|fat)|\bacne\b|\bdiet.*plan|\b(fat|weight) loss|\bhealth club|\bgyms?\b|\byoga\b|\bmedicinal herbal|\bherbal medicine,101,25
+T,\b(nursing|aged care|vitamins|vitaminas)|\btherap(y|ies)|\bhealing|remedies|reflexology|acupressure|acupuncture|physician|\bdental\b|\bdentist,101,25
+T,\bpc\b|computer|\blcd\b,-1000,25
+T,\brock.*climbing|mountain.*climbing|\bstamp.*collect|camping supplies|\b(rc|model)\b.*(boat|aircraft|airplane|car|helicopter),1000,26
+T,(\bpets?|\bdog|\bcat|puppy|puppies|kitten).*(shop|store|food|suppl|parenting|hospital|veterinar|hotel|adoption|hose|sale),1000,26
+T,\bhorse.*(sale|pony)|\b(dog|horse|cat).*breed|\bpets?\b,200,26
+T,\bpets?\b|\blego\b|\bdolls?\s?house\b|\bmodel\s?kit|\bminiatures|\bveterinarian|\banimal.*hospital,200,26
+T,\b(camping|outdoor|survival gear),101,26
+T,pet\s?shop.*boys|wedding,-1000,26
+T,\b(crochet|knitting).*pattern|\b(child|baby)\s?care\b|\b(patio|outdoor).*funiture|\bgarden supplies,1000,27
+T,\bhome canning|cleaning.*(service|product|solution)|\bmaid service|housekeeping|\bgrow.*vegetable|\bgardening,200,27
+T,\b(home|house).*(build|improve|design|\bdeco|furni|\bsafe|securit|remodel)|\bremodel.*\b(home|house),150,27
+T,\b(build|design|deco|furni|safe|securit).*\b(home\b|house)|\bcarpet\b|\b(window treatment|hardwood floor|flooring|house.*clean),101,27
+T,\bhome\b.*plan|plan.*\bhome\b|furniture|\bsofas\b|woodworking.*plan|homeware|landscaping|(home|family) idea|\brenovation,101,27
+T,\b(bathroom|kitchen).*(fixtures|vanities|accessaries|cabinetry|faucet|sinks)|\b(vegetable.*seed|bedding|duvet|\bpillow),101,27
+T,\b(parenting|babysitter|nanny|nannies)\b|\b(house|home).*\bpaint|\bactivities.*kids|\b(kids|family).*activities,101,27
+T,\bhome.*family|\bfamily.*\b(parent|center|fun|life|food|central|network|online|circle|kids)|\diy\b.*\b(home|house|garden),101,27
+T,\bhunting.*gear|\bhunting.*fishing|\bangling\b|\bfly.*fishing,200,28
+T,\bhunting\b|\bfishing,102,28
+T,\b(software|goverment|public|city).*job|\bjob list|\binterview.*(question|tip)|\bjob.*(search|find)|\b(search|find).*\bjob|\bit\b job,1000,29
+T,\binternship|\b(nanny|babysitter).*job|\bcareer.*\b(resource|advice)|\bteach.*english abroad,110,29
+T,\b(jobs?|employment|career|\bresume|freelance)|\bsalar(y|ies)|\btrabajo|\bempleos|\bstaffing|\bcasting.*\bcall|\bfind.*\btalent,101,29
+T,\bvolunteer,100,29
+A,job\.,100,29
+T,\btech.*(cookbook|recipe|howto)|(\btips?\b|\btweaks?\b).*\btricks?\b|musicology,1000,31
+T,\b(art|natural|cultural|social|todays|american?|russian?|world) history,400,31
+T,\bhow.*tos?\b|java.*(indonesia|island),200,31
+T,\bfamily.*(tree|history)|ancestry|\bworld.*\bhistory|\bhistory of\b|(se|an|sh|ch) history|\bgenealogy,110,31
+A,^wiki\.,101,31
+T,\b(wiki|chemistry|physics|biology|philosophy|astronomy|mathematics|neurology|geography),101,31
+T,video.*tutorials|knowledge.*base|\banswer.*question|\bquestion.*answer,101,31
+T,\b(encycloped|share.*know|frugal.*living|living on less|living.*frugal|life.*on.*budget)|wedding.*\b(idea|plan|tip),101,31
+T,\ball about|\biq test|\bfun quizz|worksheet|\bdiy\b.*\bgift|\bname.*(origin|meaning)|\bbaby.*\bname,101,31
+T,\b(discover|find).*(best|product)|\bufo\b.*\b(evidence|phenomenon)|^compare\b|\bhistory.*\btimeline|\bhistory for,101,31
+T,\b(mystery of|conspiracies|mysteries)\b,101,31
+T,\btips\b,100,31
+T,live.*(\bclass|course)|\bonline.*\b(class|training|course)|training.*online,1000,32
+T,\b(it|computer|devel)\b.*(training|certification|course)|employee.*training|\b(driver|driving|traffic).*(training|school|education),1000,32
+T,\bonline.*\b(english|math|education)|\blearn.*\b(english|german|french|spanish|japanese|chinese|korean|russian|thai)|\benglish.*(study|lesson),200,32
+T,\b(learning|language).*exchange|(microsoft|cisco|oracle).*(training|certification)|\b(mcse|ccna|scjp)\b|training.*(course|conference),200,32
+T,\blearn.*\b(language|math)|\blanguage.*course|\b(online|lab).*\btest|\bphotography (course|class|workshop),200,32
+T,\bacademic.*conference|\b(leadership|corporate|team).*training|\bcurriculum|\btoeic|\btoefl|\bielts|\bonline.*degree|\bdegree.*online,101,32
+T,\bvideo.*(tutorial|lecture)|\b(tutorial|lecture).*video|\bfree.*(study|lesson),101,32
+T,\bschool\b,100,32
+A,lawfirm|lawyer,200,33
+T,\b(legal\b|lawyer|law.*\boffice|law.*firm|attorney|prosecutor)|\bsolicitor|\b(law|legal).*advice|\b(federal|labor|immigration).*law,200,33
+T,\b(county|district).*courts,101,33
+T,\b(military|marksmanship unit)|\b(army|navy|naval|air force|marine).*unit,101,34
+T,\b(air force|navy|army|marine).*\brecruit|\brecruit.*\b(air force|navy|army|marine)|\bmilitary.*\bcamp,101,34
+T,\bsteve.*jobs|\bdisability resource|\bmotivational.*speak|\bretirement (home|communit),1000,35
+T,\bself.*(improvement|help|hypnosis|confidence|quote)|\bsenior citizens? centre,102,35
+T,\b(lifestyle|citizenship|naturalization|immigration|aviation safety|creativity|imagination|calendar|conference)|\bmotiva(t|si),100,35
+T,\b(create|free|online)*(poll|survey)|\b(emoticon|free sample|newsletter|retirement|philanthropy|charity|documentation),100,35
+T,\b(matrimony|matrimonial|marriage|wedding|tiny house|life coach|survival|location)|\bpain(t|ting|ter)s?\b,100,35
+T,\b(national|council|awards|associat|organization|watermark|test|taxi|driver|casting|organic|living|tank|league|prescription),100,35
+T,\b(diy|do it yourself|visa)\b,100,35
+T,\b(music|jazz|rock|blues).*\b(festival|concert|live|station|club)|\b(classic|pop).*music,1000,36
+T,\blive.*\bmusic|\bguitar.*\btab|\bmusic.*\bvideo,1000,36
+T,\b(piano|guitar|bass|drum|jazz).*\b(tutor|lesson),200,36
+T,\brock\s?band|\borchestra|\bkaraoke|\b(death|thrash)\s?metal|\b(techno|house|electronic|dance) music,120,36
+T,\bmusi[ck]\b|\blyrics?\b|\bmp3\b|\bdj\b.*\bmix|\bguitar|\bmidi\b|\bepiphone|\bpop\s?song,101,36
+T,\bmusic.*\b(software|practice|hardware|theory)|\bmusician,101,36
+D,\blyrics?\b|\bmusic.*video,100,36
+T,\bmusic,100,36
+T,(breaking|latest|world|local|times|international|asia).*news|news.*portal|beyond.*headline,1000,37
+T,\b(news.*asia|online.*(media|news)|news.*paper)|\bzeitung.*online|online.*\bzeitung,200,37
+T,\bweather.*(report|cast),150,37
+T,\b(times|herald|tribune|news)\b|\b(social.*media|magazin|independent$|zeitung),101,37
+T,\bbusiness.*news,50,37
+T,\bpolitical.*news,50,37
+T,\bfinancial.*news,50,37
+T,\bsport.*news,50,37
+T,\becono.*news,50,37
+T,\bonline.*\bpharmacy|\bpharmacy.*\bonline|\bonline chemist|\bdiscount.*medicine,1000,38
+T,\bherboristerie,101,38
+T,\bfree (recharge|money),200,39
+T,\b(earn|make|making|easy).*(money|cash),101,39
+T,\bget\s?paid,101,39
+T,\b(democratic|conservative|labour|liberal|libetarian|green|constitution).*party,1000,40
+T,\b(republican|democra|congress|house.*representative|conservative),101,40
+T,\bactivist,100,40
+T,\bfree.*porn|\bporn.*(video|tube)|\bsex.*movie|\b(naked\nude).*(celeb|teen|girl|chick)|\bbdsm\b|\bporno?\b|\bfuck\b|\bboot(y|ies)\b|\bfemdom\b,1000,41
+T,\b(dirty|adult|sex|xxx|porn|naked).*\b(video|pics|picture|joke|photo|movie|cams?|chat)|\bshemale|\btrans(gender|sexual|vestite)|\btrann(y|ies)|\bladyboy,1000,41
+T,\badult.*chat|\bcyber\s?sex|\bbisex|\bgay.*sex|\bphim.*\bsex|\b(hot|sex).*\bgrann(y|ies)|family.*orgy |\bincest|\bbbw\b|\bself\b.*\bcum\b|\bcumshot,1000,41
+A,porn,1000,41
+T,\bsexo.*latino|\blatino.*sexo|\bsex.*(story|stories)|\bbeastiality|\bsex.*(shop|store|toy),1000,41
+T,\bteen.*\b(sex|ass|pussy)|\b(sex|twink|lady|gay|animal|beast|mom|tit).*tube|\bblack\s?dick|\bround\s?ass,1000,41
+T,\bporno?\b|\bfetish|\bsex.*stor|\bxxx\b|\b(photo|video|\bfoto|chicas|latino|\banal).*\bsex|\bsex.*\bgirl|\bhot.*teen|naughty|fucking|\bnude.*photo,200,41
+T,\b(juggs|boobs|babes)\b|\bpinup.*girl|\bbig.*boob|\bbbw\b|\bfkk\b|\bpussy\b|\blgbt\b|\blesbian\b|\bbdsm\b|\bbondage,200,41
+T,\berotic.*(service|novel|story|comic|news|download|view|pic|photo|book|download),200,41
+T,\b(sexy|erotic|kinky).*\b(clothing|toy|apparel|lingerie|nightwear|underwear),200,41
+T,\b(call.*girl|escort.*girl|independent.*escort|escort.*directory)|\bgays?\b|\bmilf\b|\banimal.*sex,120,41
+T,\b(eroti[ck]|sex.*shop|adult.*service|escorts)|\b(g|j)igolo\b,102,41
+T,unblock.*(vpn|proxy|sites|facebook|youtube)|web.*based.*proxy|\b(anonymous|free|web) proxy,1000,42
+T,\banonymizer|\bvpn\b|\bproxy|\banonymous.*redirect,102,42
+T,\bsquid|\bopen srouce,-1000,42
+T,\b(rent|buy|sell).*\b(apart|propert|house)|\bhouse price,1000,43
+T,\breal\s?estate|\brealtor|\bproperty (management|manager)|\bletting agent,1000,43
+T,\b(house|propert|apart|home).*\b(sell|buy|sale|rent)|immobilien|\bhousing|\bproperty.*search|\b(landlord|tenant)s?\b,101,43
+T,\b(appartments|appartements|townhomes),100,43
+T,\bnews\b,-900,43
+T,\bbusiness.*(listing|directory).*|.*yellow\s?page,300,44
+T,\b(excel|powerpoint|spreadsheet|xsl|ppt).*template,200,44
+T,\bsample.*\b(pdf|letter|resume|cv|essay|plan),200,44
+T,\b(online.*reference|homework.*help|study.*guide|lesson.*plan)|(school|kindergarten).*worksheet,150,44
+T,\b(teach|study|education|learning).*(material|resource)|\b(material|resource).*(teach|study|education|learning)|\b(bibliography|dictionar|diccionario),110,44
+T,\bip.*(locat|lookup)|\bgeolocation|\bstatistics|(domain|phone|\bdns|\barea|code\b).*lookup|\bwhois\b,110,44
+T,\b(term|research).*paper|\b(flashcard|wörterbuch|templates|worksheets)|\b(resource|question|answer).*teacher|\bbaby names,101,44
+T,\b(city|world).*\bmap|\b(zip code|maps\b|people.*search|bank.*holidays)|\b(service|repair|owner|user).*\b(manual|guide),101,44
+T,\bchurch of.*(land|christ)|\bbaptist|\bmormon|\blutheran|\bepiscopal|\banglican,102,45
+T,\bislam(ic)?\b|\bmuslim\b|\bquran\b|\bsalvation\b|\bchristian|\bchurch|\bbuddhis|\bhindu\b|\bcatholic|\breligion|\breligious|\bgospel\b,100,45
+A,^(www\.)?google\.(com|\w{2}|\.\w{2}|com\.\w{2}|\w{2}\.\w{2})$,1000,46
+T,\b(web.*directory|link.*directory|meta.*search|web.*search|search.*engine|social.*bookmark),120,46
+D,\b(web.*directory|link.*directory|meta.*search|web.*search|search.*engine|social.*bookmark),105,46
+T,\b(website.*ranking|rank.*website|web.*portal|similar.*web|search.*similar),101,46
+T,\bwebsite.*\b(review|rank),101,46
+T,\b(online|furniture|official|product).*\b(shop|store)|\bshop.*\b(online|product)|\bonline.*\bkaufen,1000,47
+T,\bfree.*classified|\bclassified.*\bad|\bcraigslist|\bhome.*\bdelivery,1000,47
+T,\b(consumer|product).*\breview|\bconsumer.*\b(report|guide)|\bbuying.*guide,200,47
+T,\bbest.*\b(buy|deal|product)|\bdaily deal|\bwholsale price,200,47
+D,\bonline.*\b(shop|store)|\bhome.*delivery,200,47
+T,\bshopping|\bgroupon|\bprice.*comparison|\bbest.*price|\bauction|\bauktionen,150,47
+D,\bshop.*online|online.*\bshop|grocer(y|ies),150,47
+T,\bbuy.*sell|\bcoupon|\bvoucher|\bdiscount|\bclass?ificados|buy\s\w+|buy.*online,110,47
+T,\bnext.*day.*delivery|free.*shipping|\bship.*international|\busa?.*(address|\bship|package),110,47
+T,\bcompa.*price|\bprice.*compa|\b(new|used|refurbished).*\b(laptop|desktop)|\bwall (sticker|decal)|\bwholesale.*\bprice,110,47
+T,\b(send.*flower|flower.*delivery|find.*gift|gift.*idea),101,47
+A,mall\.|shop\.,100,47
+T,\b(stores?|shop|malls?|outlets?)\b|\bfind cheap|\btesco,100,47
+T,\bcart.*(software|solution)|\b(commerce|beer|liquor|alcohol|wine|prescription|drug|cannabis|marijuana),-1000,47
+T,\b(social.*network|facebook.*emoticon|emoticon.*facebook|facebook app),250,48
+T,\bmeet.*people|\bfind.*(people|friend)|\bmake.*friend,101,48
+T,\bsocial.*(audience|influnce)|\b(facebook|twitter|instagram),101,48
+T,\b(sports.*news|martial.*arts)|\b(football|soccerfutebol) club,1000,49
+T,\blive.*\b(football|cricket|baseball|basketball),1000,49
+T,\bgolf.*\b(club|lesson|event|swing|course|tournament),150,49
+T,\b(jiu.*jitsu|capoeira|vale.*tudo|karate|kenpo|jeet.*kun|\bjkd\b|kempo|wing.*chun|aikido|tai.*chi|muay.*lao|silat|kali.*arnis)\b,110,49
+T,\b(iaido|kendo|kenjutsu|jujitsu|judo|nijutsu|hapkido|kuk.*sool|kuk.*sul|taekwondo|taekkyeon|kali.*eskrima|muay.*thai)\b,110,49
+T,\b(hockey|baseball|basketball|archery|football|futebol|soccer|swim|badminton|tennis|billiard|snooker|bowling|rungby|canoe|footsal)\b,110,49
+T,\b(cycling|kayak|racquetball|volleyball|wrestling|boxing|sports?|fussball|cricket|marathon|rugby|snowboard|wakeboard|warter ski|windsurf),110,49
+T,\b(nfl|ncaa|nba|epl|nhl|mlb|mls|wnba|ufc|wwe|premier league|la liga|bundesliga)\b,110,49
+T,\b(horse|bike|car|motorbike|cycle|motorcycle).*\b(racing|race),101,49
+A,muaythai|boxing|foot(ball|sal)|cricket,100,49
+T,\bhunting|\bfishing,-1000,49
+T,\b(free|web|hit|visit).*counter,1000,50
+A,tracker\.,101,50
+T,\brent.*car|adventure (tour|travel)|\btaxi\sfare|public.*transport|\b(holiday|travel|vacation|trip) package,1000,51
+T,\bcheap.*\b(flight|holiday)|\bairline.*ticket|\bflight.*\bhotel|\b(travel|tour).*(guide|deal)|\bvacation.*package|\b(luxury|boutique).*hotel,1000,51
+T,\bholiday.*\bdeal|\bcruise.*(line|deal|holiday)|\btimetable.*\b(travel|bus|train|railway),1000,51
+D,\bcheap.*\b(flight|holiday)|\bairline.*ticket|\bflight.*\bhotel|\b(travel|tour).*(guide|deal)|\bvacation.*package|\b(luxury|boutique).*hotel,200,51
+D,\bholiday.*\bdeal|\bcruise.*(line|deal|holiday)|\btimetable.*\b(travel|bus|train|railway),200,51
+T,\b(tour|travel).*map|\bthings to do in|\bholiday.*\b(resort|villa|rental)|\bfamily.*\bholiday|\bholidays in\b|\bbook.*\btour,150,51
+T,\bhotels?\b|\bmotels?\b|\bbnb\b|\bbed.*\bbreakfast|\bvacation.*\brent|\bservice.*\bapart|\bholiday.*room|\bguest.*house,110,51
+T,\btravel|\bnight.*life|\bsight.*seeing|\btourist|\btourism|\bturist[ai]|\bturismo|\bthings\sto\sdo|\bbotanic garden|\bexpatriates|\bresort|\b(field|day).*trip,101,51
+T,\b(train|bus|\brail).*(ticket|time|route)|\btours\b,101,51
+A,skyscanner,101,51
+T,\b(holiday|expat|airline|transportation)|\b(ferries|flights|travel|\bhertz)\b,100,51
+T,\burl.*short,1000,52
+T,\bsearch.*torrent|\btorrent.*(search|track),1000,54
+T,\b(serial.*crack|crack.*serial)|\bcrack.*\b(ios|android|app|software|mac),1000,54
+T,\b(ios|android|app|software|mac).*\bcrack,1000,54
+T,\btorrent.*\b(tv\b|movie|serise|download),150,54
+T,\b(tv\b|movie|\bserise|download).*\btorrent,150,54
+T,\btorrents?\b|\bp2p\b,101,54
+A,torrents?,101,54
+T,\b(keygen|warez),101,54
+T,\b(\bgun|\brifle|\bknife|\bknives).*\b(shop|store|auction)|\b(gun|shooting).*(range|site)|\b(tactical gear|rifle.*scope|gun part),1000,55
+T,\b(discount|new|used).*\b(gun|rifle|shotgun|handgun|pistol)|\bguns for sale|\bgun.*(news|review),1000,55
+T,\bhandguns|\bpistols|\brifles|\bair.*\bgun|stun\s?guns|\btasers\b|taser\s?gun|pepper\s?spray|\bcrossbow,200,55
+T,\bfirearm|\bknives|\bcold.*steel|\bswords\b|\b(tactical|weapon|long range.*shooting),101,55
+T,\bmarksmanship (training|pracitice),101,55
+T,\b(cheap|stock|bulk).*ammo|\b(ammunition|ammo for sale),101,55
+T,\b(web|server|managed|cloud).*host|\bhosted.*\b(exchange|server|cart|voip|email|cloud)|\bcloud.*\bcms\b|\bvps.*\bhosting,1000,56
+T,\bdomain.*\b(regist|hosting|management)|\b(regist|buy|sell).*\bdomain,1000,56
+T,\bcolocation\b|data\s+center|\bvps\b|\bhosting for|\bhosting.*(developer|designer)|\bfree hosting,101,56
+T,\bdomain.*\b(broker|invest)|\b(domain names|shop.*domain),101,56
+A,hosting,100,56
+T,\bwebmail\b|\bfree .*\bemail,1000,57
+A,webmail,101,57
+T,\b(disposable|temporary).*mail,101,57
+T,\b(marketing|web\s?hosting),-1000,57
