@@ -1,0 +1,8 @@
+listen_ip = 0.0.0.0
+http_port = 80
+https_port = 443
+start_tomcat = 1
+cluster_mode = 0
+master_ip =
+slave_ip =
+blacklist_type = 5

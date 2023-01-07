@@ -1,0 +1,69 @@
+1;1;Abortion;Abortion and pregnancy
+2;2,39,51,113,127;Ads;Sites that serve ads
+3;3,43,65,126;Adult;Adult content graphically or in text including semi nude
+4;5,96;Alcohol/Tobacco;Alcohol and tobacco
+5;6;Astrology;Astrology and various cold reading methods
+6;7;Blog;Blog sites
+7;9,44,97,131;Business/Service;Business and services including ISP, web hosting, Mobile, Cable, TV
+8;10,34,124,125;CDN;Sites that are hosting content and data for other sites, including images and videos
+9;11;Chat;Online chatting or chatting applications
+10;12;Classifieds;Classifieds sites, second hand sales and services
+11;72,114;Computer/Technology;General computer and Internet sites, technical information
+12;14;Cooking/Food;Cooking, food, restaurants
+13;109,134;Crime/Illegal;Crime instructions or illegal products like fake ID and diplomas
+14;4,15,122;Dating;Dating and relationship
+15;103,136;Depress;Obituaries, grief and loss
+16;86,102;Download;Software download
+17;16;Drugs;Illegal drugs
+18;17;Education;Schools, kindergartens, colleges, universities
+19;8,19,45,93,92,107;Entertainment/Arts;Books, comics, movie reviews, actors and models, celebrity gossips, arts, paintings
+20;13,38,91;Fashion/Beauty;Clothing and fashion, life style, beauty, personal care and grooming
+21;22;File Hosting;Sites that allow users to upload and host files
+22;23,147;Finance/Real Estate;Bank, insurance, real estate, bitcoin
+23;129;Forum;Forum
+24;24;Gambling;Gambling
+25;25;Game;Games and toys including online games
+26;27;Government;Government owned sites
+27;28;Hacking;Hacking and cracking information
+28;29;Hate/Racism;Hate crime and racism
+29;41,119,120,138;Health/Medical;Medical and health information sites and online pharmacies
+30;31;Home/Gardening;Home improvements, gardening, decorating and DIY
+31;32,89;Humor/Nonsense;Humor, jokes, nonsense and time waste
+32;33;Hunting/Fishing;Hunting and fishing
+33;35;Job;Job search and offers
+34;36,117;Kids;Sites for kids
+35;62,87,88,108,116,123,135,143;Knowledge/Learning;Science, historical events, person, general knowledge and online courses
+36;37;Legal;Lawyer and low firms and legal advice and tips
+37;40;Local;City information, state information, law enforcement
+38;42;Military;Military sites with .mil or military related
+39;18,26,61,73,74,85,94,100,101,105,121,130,132,137,144,248;Misc;General websites, not porn
+40;46,140,146;Music;Music, lyrics, bands, musical instruments and downloading songs/mp3
+41;118;Nature;Nature and environment
+42;47,115,128;News/Magazine;News, magazines, weather
+43;50,139;Pharmacy;Online pharmacies
+44;49,54,69,112,79;Phishing/Malware;Phishing, spam, scam, virus infected sites
+45;55;Politics;Political opinion and news
+46;56;Porn;Pornographic content
+47;57,111;Portal;Portal sites, bookmarks
+48;59,99;Proxy/Anonymizer;Sites that contain proxy information to bypass filtering
+49;30,53,110;Recreation/Hobby;Hobbies and recreations, pets and animals
+50;84,141;Reference;Dictionary, map, translation, IP lookup
+51;60,64;Religion;Religious sites including sects and cults
+53;106;School Cheating;Ready made works for students, or school cheating
+54;63;Search Engine;Search engines
+55;66;Sex Education;Talking about sex with educational purpose
+56;67;Shopping;Shopping and online auction
+57;68;Social Network;Social networking service
+58;70;Sports;Sports and martial arts
+59;52,142,145;Streaming Media;Online video or audio and downloading movies
+60;95;Surveys/Polls;Surveys and polls services
+62;98;Tracker;Tracking user behavior, web analytics
+63;76;Travel;Travel, vacations and holidays
+64;75;URL Shortener;URL redirection or shortners
+65;77;Vehicle;Vehicles including cars, boats, planes, bikes
+66;148;Victim Help;Sites for helping victims of crime
+67;58,71,78;Violence;Violent content, suicide and profanity
+68;80;Warez;Illegal download sites or torrents
+69;81;Weapon;Selling or talking about weapons including guns, knives
+70;83;Webmail;Webmail service
+71;82;Web Hosting;Web hosting, server hosting, domain registration
