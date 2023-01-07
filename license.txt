@@ -1,0 +1,60 @@
+End User License Agreement (EULA) for NxFilter.
+
+
+In this document, "SOFTWARE" means a DNS filtering application
+named NxFilter.
+
+
+By installing, copying, or otherwise using SOFTWARE, you agree
+to be bounded by the terms of this EULA.
+
+
+1. License
+  SOFTWARE is being distributed as a freeware and can be used for
+  non-commercial purpose only. Any kind of commercial use of
+  SOFTWARE is prohibited.
+
+
+2. Restrictions
+  The source code, design, and structure of SOFTWARE are trade
+  secrets. You will not disassemble, decompile, or reverse engineer
+  it, in whole or in part, except to the extent expressly permitted
+  by law. You will not use SOFTWARE for illegal purposes. You will
+  comply with all export laws. SOFTWARE is licensed, not sold.
+
+
+3. Distribution
+  You may distribute an unlimited number of copies of SOFTWARE;
+  provided that each copy shall be a true and complete copy,
+  including all copyright and trademark notices, and shall be
+  accompanied by a copy of this EULA.
+
+
+4. Usage report
+  SOFTWARE may send a usage report to Jahastech. Such usage report
+  shall not contain any personal information belongs to the end
+  user.
+
+
+5. No Warranties
+  Jahastech expressly disclaims any warranty for SOFTWARE. SOFTWARE
+  and any related documentation is provided "as is" without warranty
+  of any kind, either express or implied, including, without
+  limitation, the implied warranties or merchantability, fitness
+  for a particular purpose, or noninfringement. The entire risk
+  arising out of use or performance of SOFTWARE remains with you.
+
+
+6. No liability for damages
+  In no event shall Jahastech be liable for any special,
+  consequential, incidental or indirect damages whatsoever
+  (including, without limitation, damages for loss of business
+  profits, business interruption, loss of business information,
+  or any other pecuniary loss) arising out of the use of or
+  inability to use this product, even if the Jahastech is aware
+  of the possibility of such damages and known defects.
+
+
+7. Contact
+  If you have any questions regarding our license policy, contact
+  us using 'support @ nxfilter.org'.
